@@ -2,7 +2,7 @@
 
 In this project, a static website is deployed to AWS using S3, CloudFront, and IAM.
 
-The files included are:
+The key files included are the following:
 
 index.html - The Index document for the website.
 /img - The background image file for the website.
