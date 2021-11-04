@@ -16,6 +16,10 @@
 3. Click "Add files" to upload the index.html file, and click "Add folder" to upload the css, img, and vendor folders.
 4. Do not select the udacity-starter-website folder. Instead, upload its content one-by-one.
 
+### Screenshot of files uploaded to S3 Bucket
+
+![S3 Bucket Screenshot](Images_README/S3_Bucket_Screenshot.PNG)
+
 ## Step 3 - Secure Bucket via IAM
 
 1. Click on the “Permissions” tab.
