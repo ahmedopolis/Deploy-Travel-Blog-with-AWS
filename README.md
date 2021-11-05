@@ -58,6 +58,14 @@ d2dk9t9iur11jv.cloudfront.net
 }
 ```
 
+#### Screenshot of S3 bucket in the AWS Management console with access being "Public"
+
+![S3 Bucket Public Screenshot](Images_README/S3_Bucket_Public_Screenshot.PNG)
+
+#### Screenshot of S3 bucket with modified IAM policy
+
+![S3 Bucket IAM Policy Screenshot](Images_README/S3_Bucket_IAM_Policy_Screenshot.PNG)
+
 ### Step 4 - Configure S3 Bucket
 
 1. Go to the Properties tab and then scroll down to edit the Static website hosting section.
@@ -77,6 +85,10 @@ d2dk9t9iur11jv.cloudfront.net
    Cache key and origin requests: Use default settings.
 5. Leave the defaults for the rest of the options, and click “Create Distribution”. It may take up to 10 minutes for the CloudFront Distribution to get created.
 6. Once the status of your distribution changes from “In Progress” to “Deployed”, copy the endpoint URL for your CloudFront distribution found in the “Domain Name” column.
+
+#### Screenshot of CloudFront Distribution "Enabled"
+
+![CloudFront Distribution Enabled Screenshot](Images_README/CloudFront_Distribution_Enabled_Screenshot.PNG)
 
 ### Step 6 - Access Website in Web Browser
 
