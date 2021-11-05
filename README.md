@@ -11,6 +11,7 @@ index.html - The Index document for the website.
 
 ## URL for static website
 
+http://myproject1bucket.s3-website-us-east-1.amazonaws.com/
 d2dk9t9iur11jv.cloudfront.net
 
 ## Steps used for deployment
