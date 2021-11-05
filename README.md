@@ -72,6 +72,10 @@ d2dk9t9iur11jv.cloudfront.net
 2. Click on the “Edit” button to see the Edit static website hosting screen. Now, enable the Static website hosting, and provide the default home page and error page for your website.
 3. For both “Index document” and “Error document”, enter “index.html” and click “Save”. After successfully saving the settings, check the Static website hosting section again under the Properties tab.
 
+#### Screenshot of S3 bucket with modified static website host settings
+
+![S3 Bucket Static Website Host Screenshot](Images_README/S3_Bucket_Static_Website_Host_Screenshot.PNG)
+
 ### Step 5 - Distribute Website via Cloudfront
 
 1. Select “Services” from the top left corner and enter “cloud front” in the “Find a service by name or feature” text box and select “CloudFront”.
