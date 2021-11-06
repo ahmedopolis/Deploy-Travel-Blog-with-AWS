@@ -1,5 +1,7 @@
 # Deploy Static Website on AWS
 
+![AWS Deployment Diagram](Images_README/aws_deployment_diagram.png)
+
 In this project, a static website is deployed to AWS using S3, CloudFront, and IAM.
 
 The key files included are the following:
