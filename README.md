@@ -99,3 +99,7 @@ d2dk9t9iur11jv.cloudfront.net
 1. Open a web browser like Google Chrome, and paste the copied CloudFront domain name (such as, dgf7z6g067r6d.cloudfront.net) without appending /index.html at the end. The CloudFront domain name should show you the content of the default home-page.
 2. Access the website via website-endpoint, such as http://<bucket-name>.s3-website.us-east-2.amazonaws.com/.
 3. Access the bucket object via its S3 object URL, such as, https://<bucket-name>.s3.amazonaws.com/index.html.
+
+#### Short Video of website tested
+
+![Website Gif](Videos_README/travelblogview.gif)
