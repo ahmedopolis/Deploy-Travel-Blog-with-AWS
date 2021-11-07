@@ -15,12 +15,12 @@ index.html - The Index document for the website.
 
 1. [URL for static website](#URL-for-static-website)
 2. [Steps used for deployment](#Steps-used-for-deployment)
-   1. [Step 1: Create S3 Bucket](#Step-1:-Create-S3-Bucket)
-   2. [Step 2: Upload files to S3 Bucket](#Step-2:-Upload-files-to-S3-Bucket)
-   3. [Step 3: Secure Bucket via IAM](#Step-3:-Secure-Bucket-via-IAM)
-   4. [Step 4: Configure S3 Bucket](#Step-4:-Configure-S3-Bucket)
-   5. [Step 5: Distribute Website via Cloudfront](#Step-5:-Distribute-Website-via-Cloudfront)
-   6. [Step 6: Access Website in Web Browser](#Step-6:-Access-Website-in-Web-Browser)
+   1. [Create S3 Bucket](#Create-S3-Bucket)
+   2. [Upload files to S3 Bucket](#Upload-files-to-S3-Bucket)
+   3. [Secure Bucket via IAM](#Secure-Bucket-via-IAM)
+   4. [Configure S3 Bucket](#Configure-S3-Bucket)
+   5. [Distribute Website via Cloudfront](#Distribute-Website-via-Cloudfront)
+   6. [Access Website in Web Browser](#Access-Website-in-Web-Browser)
 3. [Tools](#Tools)
 4. [License](#License)
 
@@ -31,7 +31,7 @@ d2dk9t9iur11jv.cloudfront.net
 
 ## Steps used for deployment
 
-### Step 1: Create S3 Bucket
+### Create S3 Bucket
 
 1. Navigate to the “AWS Management Console” page, type “S3” in the “Find Services” box and then select “S3”.
 2. The Amazon S3 dashboard displays. Click “Create bucket”.
@@ -40,7 +40,7 @@ d2dk9t9iur11jv.cloudfront.net
 5. Click “Next” and click “Create bucket”.
 6. Once the bucket is created, click on the name of the bucket to open the bucket to the contents.
 
-### Step 2: Upload files to S3 Bucket
+### Upload files to S3 Bucket
 
 1. Once the bucket is open to its contents, click the “Upload” button.
 2. Click the "Add files" and “Add folder” button, and upload the Student-ready starter code folder content from your local computer to the S3 bucket.
@@ -51,7 +51,7 @@ d2dk9t9iur11jv.cloudfront.net
 
 ![S3 Bucket Screenshot](Images_README/S3_Bucket_Screenshot.PNG)
 
-### Step 3: Secure Bucket via IAM
+### Secure Bucket via IAM
 
 1. Click on the “Permissions” tab.
 2. The “Bucket Policy” section shows it is empty. Click on the Edit button.
@@ -81,7 +81,7 @@ d2dk9t9iur11jv.cloudfront.net
 
 ![S3 Bucket IAM Policy Screenshot](Images_README/S3_Bucket_IAM_Policy_Screenshot.PNG)
 
-### Step 4: Configure S3 Bucket
+### Configure S3 Bucket
 
 1. Go to the Properties tab and then scroll down to edit the Static website hosting section.
 2. Click on the “Edit” button to see the Edit static website hosting screen. Now, enable the Static website hosting, and provide the default home page and error page for your website.
@@ -91,7 +91,7 @@ d2dk9t9iur11jv.cloudfront.net
 
 ![S3 Bucket Static Website Host Screenshot](Images_README/S3_Bucket_Static_Website_Host_Screenshot.PNG)
 
-### Step 5: Distribute Website via Cloudfront
+### Distribute Website via Cloudfront
 
 1. Select “Services” from the top left corner and enter “cloud front” in the “Find a service by name or feature” text box and select “CloudFront”.
 2. From the CloudFront dashboard, click “Create Distribution”.
@@ -109,7 +109,7 @@ d2dk9t9iur11jv.cloudfront.net
 
 ![CloudFront Distribution Enabled Screenshot](Images_README/CloudFront_Distribution_Enabled_Screenshot.PNG)
 
-### Step 6: Access Website in Web Browser
+### Access Website in Web Browser
 
 1. Open a web browser like Google Chrome, and paste the copied CloudFront domain name (such as, dgf7z6g067r6d.cloudfront.net) without appending /index.html at the end. The CloudFront domain name should show you the content of the default home-page.
 2. Access the website via website-endpoint, such as http://<bucket-name>.s3-website.us-east-2.amazonaws.com/.
